@@ -1,0 +1,58 @@
+/* General styling */
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Input styling */
+  .input, .select, .button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .input:focus, .select:focus, .button:focus {
+    outline: none;
+    color: black !important;
+    border-color: #4A90E2;
+  }
+  
+  /* Button styling */
+  .button {
+    background-color: #4A90E2;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #357ABD;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #FF4D4F;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Label styling */
+  .label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
